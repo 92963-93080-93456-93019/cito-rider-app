@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import Routes from './routes';
 
 import { HelmetProvider } from 'react-helmet-async';
-import CartContextProvider from './contexts/CartContext';
+import OrderDetailsContext from './contexts/OrderDetailsContext';
 
 ReactDOM.render(
     <HelmetProvider>
-        <CartContextProvider>
+        <OrderDetailsContext>
           <Routes />
-        </CartContextProvider>
+        </OrderDetailsContext>
     </HelmetProvider>,
   document.getElementById('root')
 );
