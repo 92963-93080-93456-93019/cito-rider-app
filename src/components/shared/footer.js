@@ -4,7 +4,7 @@ import styles from './footer.module.scss';
 const Footer = () => {
     return ( 
         <footer className={`${styles.footer}  mt-5 p-3`}>
-            2021 &copy; Farmácia Armando
+            2021 &copy; App by CITO
         </footer>
      );
 }
